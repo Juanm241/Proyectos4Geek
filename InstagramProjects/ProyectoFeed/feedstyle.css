@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: lightgray;
+    padding: 0px;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.header_titulo{
+    display: flex;
+    width: 100%;
+    margin-left: 30%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color:white ;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.feed{
+    display: flex;
+    flex-flow: column nowrap ;
+    align-items: center;
+    border:saddlebrown 2px ;
+}
+.caja_post{
+    display: flex;
+    flex-direction: column;
+    width: 40%;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: purple 2px  ;
+}
+.titlef{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: green 2px ;
+    padding: 5px;
+}
+.date{
+    color: rgba(211, 211, 211, 0.76);
+}
+.post{
+    margin: 3%;
+    border: blue 2px 
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;    
+}

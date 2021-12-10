@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divisiones{
+    width: 30%;
+    background-color: white;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.header{
+    display: flex;
+}
+.logo{
+    display: flex;   
+    width: 40px;
+    height: 40px;
+}
+.menuimg{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.img{
+    width: 100%;
+}
+.inferior{
+    padding: 5px;
+}
+.iconos{
+    justify-content: space-between;
+    display: flex;
+}
+h1{
+    font-size: 18px;
+    margin: 0px
+}
+p{
+    margin: 0px;
+    font-size: 15px;
+}
+.likes{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}

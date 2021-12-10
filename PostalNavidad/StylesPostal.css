@@ -1,0 +1,37 @@
+div{
+    padding: 5px;
+    background-color: white;
+}
+.divisiones-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.divisiones-contenido{
+    display: flex;    
+    justify-content: space-between;
+}
+p{
+    width: 300px;
+}
+.boton{
+    margin-left: 50%;
+    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    color: red;
+    font-size: 40px;
+    font-family: monospace;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    padding-right: 50px;
+}
